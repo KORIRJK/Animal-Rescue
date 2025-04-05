@@ -1,0 +1,58 @@
+.links{
+    list-style-type: none ;
+    background-color: honeydew;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+nav li a{
+    padding:15px 15px;
+    text-decoration: none;
+    color: #393E46;
+    display: block;
+}
+nav li a:hover{
+    background-color: antiquewhite;
+}
+.styleimages{
+    background-image: url("images/animal13.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.artexts{
+    text-align: center;
+    color: #393E46;
+    font-size: 20px;
+    top: 50px;
+    left: 50px;
+
+    position: absolute;
+
+}
+.arbutton{
+    padding: 2px;
+
+}
+section{
+    margin:3px;
+    padding:2px;
+}
+.center{
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+    margin:10px;
+    padding:10px;
+}
+h2,h3{
+    text-align: center;
+}
+#gallery{
+    border-radius: 50%;
+}
